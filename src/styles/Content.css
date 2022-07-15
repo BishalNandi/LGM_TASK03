@@ -1,0 +1,38 @@
+
+.im + img{
+    width: 250px;
+    height: 170px;
+}
+.card{
+    background-color: #00D84A;
+    color: #03203C;
+}
+.card-header{
+    background-color: #03203C;
+    color: #CAD5E2;
+}
+.details{
+    display: flex;
+    margin-left: 10px;
+     flex-direction: column;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    justify-content:flex-start;
+}
+.card{
+    margin-bottom: 15px;
+}
+h1{
+    color: #03C6C7;
+    background-color: #03203C;
+    margin-bottom: 40px;
+}
+.skill{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.skill>p{
+    margin: 10px;
+}
